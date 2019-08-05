@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  SiftUI-NavBarDemo
+//  SwiftUI-NavBarDemo
 //
 //  Created by Russell Archer on 05/08/2019.
 //  Copyright © 2019 Russell Archer. All rights reserved.
@@ -58,4 +58,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-

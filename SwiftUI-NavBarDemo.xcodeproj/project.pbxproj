@@ -13,10 +13,12 @@
 		6800866A22F867D9005B8AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6800866922F867D9005B8AF3 /* Assets.xcassets */; };
 		6800866D22F867D9005B8AF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6800866C22F867D9005B8AF3 /* Preview Assets.xcassets */; };
 		6800867022F867D9005B8AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6800866E22F867D9005B8AF3 /* LaunchScreen.storyboard */; };
+		6800867822F86811005B8AF3 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800867722F86811005B8AF3 /* View2.swift */; };
+		6800867C22F86C89005B8AF3 /* 01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6800867B22F86C89005B8AF3 /* 01.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6800866022F867D8005B8AF3 /* SiftUI-NavBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SiftUI-NavBarDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6800866022F867D8005B8AF3 /* SwiftUI-NavBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-NavBarDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6800866322F867D8005B8AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6800866522F867D8005B8AF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6800866722F867D8005B8AF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +26,9 @@
 		6800866C22F867D9005B8AF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6800866F22F867D9005B8AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6800867122F867D9005B8AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6800867722F86811005B8AF3 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		6800867922F86A27005B8AF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6800867B22F86C89005B8AF3 /* 01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 01.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +45,9 @@
 		6800865722F867D7005B8AF3 = {
 			isa = PBXGroup;
 			children = (
-				6800866222F867D8005B8AF3 /* SiftUI-NavBarDemo */,
+				6800867922F86A27005B8AF3 /* README.md */,
+				6800867A22F86C3C005B8AF3 /* readme-assets */,
+				6800866222F867D8005B8AF3 /* SwiftUI-NavBarDemo */,
 				6800866122F867D8005B8AF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +55,24 @@
 		6800866122F867D8005B8AF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6800866022F867D8005B8AF3 /* SiftUI-NavBarDemo.app */,
+				6800866022F867D8005B8AF3 /* SwiftUI-NavBarDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6800866222F867D8005B8AF3 /* SiftUI-NavBarDemo */ = {
+		6800866222F867D8005B8AF3 /* SwiftUI-NavBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6800867122F867D9005B8AF3 /* Info.plist */,
 				6800866322F867D8005B8AF3 /* AppDelegate.swift */,
-				6800866522F867D8005B8AF3 /* SceneDelegate.swift */,
 				6800866722F867D8005B8AF3 /* ContentView.swift */,
+				6800866522F867D8005B8AF3 /* SceneDelegate.swift */,
+				6800867722F86811005B8AF3 /* View2.swift */,
 				6800866922F867D9005B8AF3 /* Assets.xcassets */,
 				6800866E22F867D9005B8AF3 /* LaunchScreen.storyboard */,
-				6800867122F867D9005B8AF3 /* Info.plist */,
 				6800866B22F867D9005B8AF3 /* Preview Content */,
 			);
-			path = "SiftUI-NavBarDemo";
+			path = "SwiftUI-NavBarDemo";
 			sourceTree = "<group>";
 		};
 		6800866B22F867D9005B8AF3 /* Preview Content */ = {
@@ -75,12 +83,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6800867A22F86C3C005B8AF3 /* readme-assets */ = {
+			isa = PBXGroup;
+			children = (
+				6800867B22F86C89005B8AF3 /* 01.gif */,
+			);
+			path = "readme-assets";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6800865F22F867D8005B8AF3 /* SiftUI-NavBarDemo */ = {
+		6800865F22F867D8005B8AF3 /* SwiftUI-NavBarDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6800867422F867D9005B8AF3 /* Build configuration list for PBXNativeTarget "SiftUI-NavBarDemo" */;
+			buildConfigurationList = 6800867422F867D9005B8AF3 /* Build configuration list for PBXNativeTarget "SwiftUI-NavBarDemo" */;
 			buildPhases = (
 				6800865C22F867D8005B8AF3 /* Sources */,
 				6800865D22F867D8005B8AF3 /* Frameworks */,
@@ -90,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = "SiftUI-NavBarDemo";
-			productName = "SiftUI-NavBarDemo";
-			productReference = 6800866022F867D8005B8AF3 /* SiftUI-NavBarDemo.app */;
+			name = "SwiftUI-NavBarDemo";
+			productName = "SwiftUI-NavBarDemo";
+			productReference = 6800866022F867D8005B8AF3 /* SwiftUI-NavBarDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6800865B22F867D8005B8AF3 /* Build configuration list for PBXProject "SiftUI-NavBarDemo" */;
+			buildConfigurationList = 6800865B22F867D8005B8AF3 /* Build configuration list for PBXProject "SwiftUI-NavBarDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6800865F22F867D8005B8AF3 /* SiftUI-NavBarDemo */,
+				6800865F22F867D8005B8AF3 /* SwiftUI-NavBarDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +152,7 @@
 				6800867022F867D9005B8AF3 /* LaunchScreen.storyboard in Resources */,
 				6800866D22F867D9005B8AF3 /* Preview Assets.xcassets in Resources */,
 				6800866A22F867D9005B8AF3 /* Assets.xcassets in Resources */,
+				6800867C22F86C89005B8AF3 /* 01.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +166,7 @@
 				6800866422F867D8005B8AF3 /* AppDelegate.swift in Sources */,
 				6800866622F867D8005B8AF3 /* SceneDelegate.swift in Sources */,
 				6800866822F867D8005B8AF3 /* ContentView.swift in Sources */,
+				6800867822F86811005B8AF3 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +303,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "SiftUI-NavBarDemo/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "SwiftUI-NavBarDemo/Preview\\ Content";
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SiftUI-NavBarDemo/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-NavBarDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.SiftUI-NavBarDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.SwiftUI-NavBarDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,15 +323,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "SiftUI-NavBarDemo/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "SwiftUI-NavBarDemo/Preview\\ Content";
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SiftUI-NavBarDemo/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-NavBarDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.SiftUI-NavBarDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.SwiftUI-NavBarDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6800865B22F867D8005B8AF3 /* Build configuration list for PBXProject "SiftUI-NavBarDemo" */ = {
+		6800865B22F867D8005B8AF3 /* Build configuration list for PBXProject "SwiftUI-NavBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6800867222F867D9005B8AF3 /* Debug */,
@@ -332,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6800867422F867D9005B8AF3 /* Build configuration list for PBXNativeTarget "SiftUI-NavBarDemo" */ = {
+		6800867422F867D9005B8AF3 /* Build configuration list for PBXNativeTarget "SwiftUI-NavBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6800867522F867D9005B8AF3 /* Debug */,
