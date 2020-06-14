@@ -1,6 +1,6 @@
 # Navigation Bar Title Size Demo
 ## Selecting the appropriate navbar size
-**(Updated for Xcode 11 Beta 6)**
+**(Updated for Xcode 11 Beta 7)**
 
 This demo shows how to select either large navigation bar (the default) or a small, inline bar.
 
